@@ -1,0 +1,36 @@
+h1{
+    border: 2px #eee solid; 
+    color: black; 
+    text-align:center; 
+    padding: 10px;
+}
+
+body{
+    margin: 0; 
+    background-color:darkslategray;
+ 
+}
+
+.navbar{
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    top: 0; 
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 15px; 
+    padding-right: 40px; 
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+a:hover{
+    color: blue; 
+}
